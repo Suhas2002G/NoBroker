@@ -1,0 +1,59 @@
+.body1 {
+    /* background-image: url("https://t4.ftcdn.net/jpg/03/97/28/79/360_F_397287904_5B9j7LBLVccN2maTr4V4vYl9JZ51UI5Q.jpg"); */
+    background-color: #F2F2F2;
+
+    /* background-image: url("https://xmple.com/wallpaper/gradient-linear-white-grey-3840x2160-c2-696969-ffffff-a-90-f-14.svg");
+    background-size: cover;
+    background-repeat: no-repeat; */
+
+}
+
+#title-NoBroker {
+    font-size: 30px;
+    color: #FC3652;
+    text-shadow: 4px 4px 2px rgb(238, 220, 220);
+}
+
+/* navigation bar elements */
+.nav-item {
+    margin-left: 40px;
+    /* color: black; */
+}
+
+.card {
+    border-radius: 30px;
+    /* border: 2px solid black; */
+}
+
+.card-outline {
+    border-radius: 20px;
+
+}
+
+#card-box {
+    width: 100%;
+    /* border-radius: 20px; */
+    background-color: rgb(184, 218, 252);
+
+}
+
+
+/* Achievments cards */
+#achieve {
+    /* background-color: rgb(248, 152, 139); */
+    background-color: #f7f7f7;
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px black;
+    /* color: black */
+}
+
+
+
+
+/* Footer  */
+/* icons to align Inline */
+.abc {
+    display: inline;
+    margin: 6px;
+}
