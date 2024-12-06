@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Your Property for Sale</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .form-container {
+            
+            margin-top: 30px;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 1 1 10px rgba(0, 0, 0, 0.1);
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="form-container">
+                    <h2 class="text-center">Post Your Property for Sale</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="propertyTitle">Property Title</label>
+                            <input type="text" class="form-control" id="propertyTitle" placeholder="Enter property title">
+                        </div>
+                        <div class="form-group">
+                            <label for="propertyType">Property Type</label>
+                            <select class="form-control" id="propertyType">
+                                <option>House</option>
+                                <option>Apartment</option>
+                                <option>Land</option>
+                                <option>Commercial Property</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="location">Location</label>
+                            <input type="text" class="form-control" id="location" placeholder="Enter property location">
+                        </div>
+                        <div class="form-group">
+                            <label for="price">Price (in INR)</label>
+                            <input type="number" class="form-control" id="price" placeholder="Enter price">
+                        </div>
+                        <div class="form-group">
+                            <label for="description">Description</label>
+                            <textarea class="form-control" id="description" rows="4" placeholder="Enter property description"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactName">Contact Name</label>
+                            <input type="text" class="form-control" id="contactName" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="contactPhone">Contact Phone</label>
+                            <input type="tel" class="form-control" id="contactPhone" placeholder="Enter your phone number">
+                        </div>
+                        <div class="form-group">
+                            <label for="propertyImg">Upload Property Images</label>
+                            <input type="file" class="form-control" id="propertyImg" placeholder="">
+                        </div>
+                        <button type="submit" class="btn btn-light btn-outline-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+</body>
+</html>
